@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo</title>
+    <style>
+      h3 {
+        color: brown;
+      }
+      h3:hover {
+        color: rgb(0, 251, 92);
+        background-color: cadetblue;
+      }
+      input:focus {
+        color: rgb(94, 8, 9);
+        background-color: rgb(161, 249, 219);
+        font-size: 1em;
+        font-weight: bold;
+        padding-left: 5px;
+        margin: 5px;
+        outline: 0;
+        border: 2px solid gold;
+      }
+      a:visited {
+        color: gray;
+      }
+      /* li:last-child {
+        color: chocolate;
+      } */
+      /* li:first-child {
+        background-color: antiquewhite;
+      } */
+      li:nth-child(2n) {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>My heading</h3>
+    <input type="text" /><br />
+    <input type="text" /><br />
+    <input type="text" /><br />
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.wikipedia.org/">wikipedia</a>
+
+    <ul>
+      <li>Alia</li>
+      <li>Talia</li>
+      <li>Malia</li>
+      <li>Khalia</li>
+      <li>Dalia</li>
+      <li>Halia</li>
+      <li>Halia</li>
+    </ul>
+  </body>
+</html>
