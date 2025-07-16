@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h3::after {
+        content: ".pdf";
+        color: brown;
+        background-color: yellow;
+      }
+      h3:hover {
+        content: "start";
+      }
+      p::first-letter {
+        font-size: 3em;
+      }
+      /* p::first-line {
+        background-color: rgb(235, 63, 98);
+      } */
+      p::first-line {
+        color: rgb(235, 63, 98);
+      }
+      ::selection {
+        background-color: yellow;
+      }
+      input::placeholder {
+        color: rgb(126, 63, 235);
+      }
+    </style>
+  </head>
+  <body>
+    <h3>heading -1</h3>
+    <h3>heading -2</h3>
+    <h3>heading -3</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi fugit
+      nobis sint dolorem adipisci libero laudantium voluptates aliquid labore
+      vero.
+    </p>
+    <p>
+      In error vel nam alias illo voluptas ducimus deleniti necessitatibus
+      eaque, nemo consectetur dolorum vero mollitia? Expedita voluptatum
+      doloremque incidunt!
+    </p>
+    <p>
+      Rerum ratione iste architecto saepe illo hic, praesentium odio quod
+      molestias eum dignissimos quam assumenda vero perferendis ad laborum
+      dolore?
+    </p>
+  </body>
+</html>
